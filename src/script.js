@@ -1,7 +1,8 @@
+const elem = document.querySelector('section')
 
+// const a = elem.getAttribute('class')
+elem.setAttribute('class', 'asdasda')
 
-const str = 'asdasdasdasd'
+console.log(elem.dataset)
 
-for (let i = 0; i < str.length; i++) {
-    console.log('str[i]', str[i])
-}
+console.dir(elem)
